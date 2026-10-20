@@ -1,0 +1,22 @@
+.ae-codex/*
+!.ae-codex/.gitkeep
+
+# Local Codex configuration and generated project media
+.codex/config.toml
+/assets/
+/outputs/
+
+# Dependencies, caches and machine-local files
+node_modules/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Credentials and local environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
